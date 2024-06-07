@@ -1,0 +1,944 @@
+repo_name: minhnguyen311/vrite
+report_id: 36cbb11e0bfe212ead48f4fe01dfc635
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:26:37+00:00'
+requested_by: areknawo
+provider: github
+branch: main
+detected_tools_count: 70
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/minhnguyen311/vrite
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.8
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/app/package.json
+  detection_source: apps/backend/app/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/vrite
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: areknawo
+  last_updated_on: 2023-05-23 08:25:40.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/scripts/package.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-05-16 17:30:15.000000000 Z
+- name: Fastify
+  description: Fast and low overhead web framework, for Node.js
+  website_url: http://www.fastify.io/
+  version: 4.26.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7609/24939410.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/api/package.json
+  detection_source: apps/backend/api/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/api/Dockerfile
+  detection_source: apps/backend/api/Dockerfile
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/emails/package.json
+  detection_source: packages/emails/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: areknawo
+  last_updated_on: 2023-05-23 08:25:40.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-28 11:07:09.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 6.3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/collaboration/package.json
+  detection_source: apps/backend/collaboration/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-28 11:07:09.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/vrite
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-28 11:07:09.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-08-11 10:23:23.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-05-16 17:30:15.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/vrite
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-29 18:54:27.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/scripts/package.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-05-16 17:30:15.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: areknawo
+  last_updated_on: 2023-05-23 08:25:40.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: areknawo
+  last_updated_on: 2023-05-23 08:25:40.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/scripts/package.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-05-16 17:30:15.000000000 Z
+- name: Google App Engine
+  description: Build web applications on the same scalable systems that power Google
+    applications
+  website_url: https://developers.google.com/appengine
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/139/s01TMTGn.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/backend/package.json
+  detection_source: packages/backend/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-11 20:12:45.000000000 Z
+- name: Apiary
+  description: Integrated API documentation, prototyping and testing
+  website_url: http://apiary.io/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/272/7b176017eab2903a23d914460b6dd600.jpeg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-28 11:07:09.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/backend/package.json
+  detection_source: packages/backend/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-22 16:07:28.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 4.26.1
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-05-31 15:48:56.000000000 Z
+- name: Weaviate
+  description: An open-source vector search engine
+  website_url: https://weaviate.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/48640/default_e449cca14683994294f8d6a9d2d22791e7e8448b.jpg
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Weaviate Git Bot
+  last_updated_on: 2024-03-18 08:04:58.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/assets/package.json
+  detection_source: apps/backend/assets/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-08-22 11:28:10.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/app/package.json
+  detection_source: apps/backend/app/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/landing-page/package.json
+  detection_source: apps/landing-page/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: saas
+  description: Multi-channel user engagement platform trusted by over 32K online businesses.
+    Build user segments and engage via web, in-app, push, email &amp; text messages.
+  website_url: http://webengage.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2656/olEkMpJH_normal.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-15 20:22:53.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.4.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+  - name: Vite XSS vulnerability in `server.transformIndexHtml` via URL payload
+    cve_id: CVE-2023-49293
+    cve_url: https://github.com/advisories/GHSA-92r3-m2mg-pj97
+    detected_date: Dec 6
+    severity: moderate
+    first_patched: 4.4.12
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 20.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-04-17 15:55:06.000000000 Z
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  version: 4.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: "@types/marked"
+  description: TypeScript definitions for Marked
+  package_url: https://www.npmjs.com/@types/marked
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17650/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-14 20:49:49.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.11.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/emails/package.json
+  detection_source: packages/emails/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 8.5.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/backend/package.json
+  detection_source: packages/backend/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-22 16:07:28.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-08-11 10:23:23.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 6.2.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-08-11 10:23:23.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-08-29 14:21:03.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-08-11 10:23:23.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 10.3.10
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/scripts/package.json
+  detection_source: packages/scripts/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/app/package.json
+  detection_source: apps/backend/app/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-13 06:53:38.000000000 Z
+- name: html-to-text
+  description: Advanced html to plain text converter
+  package_url: https://www.npmjs.com/html-to-text
+  version: 9.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18417/default_866295ec9b57ad977c956d0fed2e144aaca6c4a0.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/docs/package.json
+  detection_source: apps/docs/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-09-15 20:22:53.000000000 Z
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.35
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/app/package.json
+  detection_source: apps/backend/app/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 9.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/packages/backend/package.json
+  detection_source: packages/backend/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2023-08-11 10:23:23.000000000 Z
+- name: monaco-editor
+  description: A browser based code editor
+  package_url: https://www.npmjs.com/monaco-editor
+  version: 0.45.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18275/default_04867aeead13d19d0c97d0c649f8b38985a43aba.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 5.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/app/package.json
+  detection_source: apps/backend/app/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: openai
+  description: The official TypeScript library for the OpenAI API
+  package_url: https://www.npmjs.com/openai
+  version: 4.26.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: remark
+  description: Markdown processor powered by plugins
+  package_url: https://www.npmjs.com/remark
+  version: 15.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: remark-parse
+  description: Remark plugin to parse Markdown
+  package_url: https://www.npmjs.com/remark-parse
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.33.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/app/package.json
+  detection_source: apps/backend/app/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: sortablejs
+  description: JavaScript library for reorderable drag-and-drop lists on modern browsers
+    and touch devices
+  package_url: https://www.npmjs.com/sortablejs
+  version: 1.15.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17481/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 5.27.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/web/package.json
+  detection_source: apps/web/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
+- name: unist-util-visit
+  description: Recursively walk over unist nodes
+  package_url: https://www.npmjs.com/unist-util-visit
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/minhnguyen311/vrite/blob/main/apps/backend/extensions/package.json
+  detection_source: apps/backend/extensions/package.json
+  last_updated_by: Arek Nawo
+  last_updated_on: 2024-02-06 17:08:12.000000000 Z
